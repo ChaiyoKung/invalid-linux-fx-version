@@ -10,5 +10,5 @@ This repository was created to reproduce an issue encountered after upgrading de
 
 ## Reference Pull Requests
 
-- **PR #2**: Introduced the changes that caused the `The parameter LinuxFxVersion has an invalid value.` error.
-- **PR #3**: Provides the solution and fix for the issue.
+- **PR #2**: Introduced the changes that caused the `The parameter LinuxFxVersion has an invalid value.` error. (#2)
+- **PR #4**: Provides the solution and fix for the issue. (#4)
