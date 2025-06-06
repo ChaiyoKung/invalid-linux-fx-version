@@ -38,7 +38,7 @@ resource "azurerm_app_service_plan" "example" {
   }
 }
 
-resource "azurerm_linux_function_app" "example" {
+resource "azurerm_windows_function_app" "example" {
   name                       = "func-linux-fx-version"
   location                   = azurerm_resource_group.example.location
   resource_group_name        = azurerm_resource_group.example.name
@@ -53,7 +53,7 @@ resource "azurerm_linux_function_app" "example" {
 
     application_stack {
       use_dotnet_isolated_runtime = true
-      dotnet_version              = "8.0"
+      dotnet_version              = "v8.0"
     }
   }
 }
